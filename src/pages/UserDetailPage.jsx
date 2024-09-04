@@ -40,8 +40,8 @@ export default function UpdatePage() {
                 <h1>{user.name}</h1>
                 <User user={user} />
                 <div className="btns">
-                    <button className="btn-cancel" onClick={showDeleteDialog}>Delete user</button>
-                    <button onClick={showUpdate}>Update user</button>
+                    <button className="btn-cancel" onClick={showDeleteDialog}>Delete game</button>
+                    <button onClick={showUpdate}>Edit game</button>
                 </div>
             </div>
         </div>
