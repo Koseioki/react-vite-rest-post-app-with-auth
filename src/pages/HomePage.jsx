@@ -63,7 +63,6 @@ export default function Homepage() {
               "genre": "party",
               "language": "Danish",
               "level": "Easy",
-
               "minplayer": "4",
               "maxplayer": "10",
               "minminute": "45",
@@ -80,7 +79,6 @@ export default function Homepage() {
               "genre": "Strategy",
               "language": "English",
               "level": "Medium",
-
               "minplayer": "1",
               "maxplayer": "6",
               "minminute": "60",
@@ -97,7 +95,6 @@ export default function Homepage() {
               "genre": "party",
               "language": "English",
               "level": "Easy",
-
               "minplayer": "3",
               "maxplayer": "5",
               "minminute": "20",
@@ -163,6 +160,12 @@ export default function Homepage() {
                     Sort by
                     <select name="sort-by" onChange={e => setSortBy(e.target.value)}>
                         <option value="name">Name</option>
+                        <option value="minplayer">Most popular</option>
+                        <option value="minminute">Newest</option>
+                        <option value="level">Easiest games</option>
+                        <option value="level">Most difficult games</option>
+
+
                         {/* <option value="title">Title</option> */}
                         {/* <option value="mail">Mail</option> */}
                     </select>
